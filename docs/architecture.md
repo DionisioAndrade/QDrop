@@ -25,13 +25,16 @@ Arrows represent project references. Core must remain independent of Avalonia, A
 
 Desktop will be the composition root: it will assemble services and own the application lifetime. Views will present state and forward user actions through view models. Business decisions belong in Core; HTTP request and response handling belongs in Server.
 
+See [Layer contracts and application flow](contracts.md) for ownership, information boundaries, and the proposed sharing flow.
+
 ## Folder responsibilities
 
 ```text
 QDrop/
 ├── branding/                  Existing visual identity and logo exports
 ├── docs/
-│   └── architecture.md       Project boundaries and organization
+│   ├── architecture.md       Project boundaries and organization
+│   └── contracts.md          Layer contracts and application flow
 ├── src/
 │   ├── QDrop.Core/
 │   │   ├── Models/           Business data and session models
