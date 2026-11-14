@@ -1,2 +1,18 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/qdrop-logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="branding/qdrop-logo-light.png">
+    <img src="branding/qdrop-logo-light.png" alt="QDrop — Select. Scan. Download." width="760">
+  </picture>
+</p>
+
 # QDrop
-QDrop is a lightweight app for quickly sharing files between your computer and smartphone over a local network. Select one or multiple files to generate a download link and QR code. Scan with your phone to download instantly, without cables, cloud storage, or complicated setup.
+
+Share files from your computer to your smartphone over your local network using a QR code.
+
+QDrop is a planned lightweight, cross-platform desktop app designed to make file transfers simple: select your files, create a sharing link, and download them through your phone's browser. No accounts, cloud storage, or mobile app required.
+
+
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE).

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../QDrop.Core/QDrop.Core.csproj" />
+    <ProjectReference Include="../QDrop.Server/QDrop.Server.csproj" />
+  </ItemGroup>
+</Project>
